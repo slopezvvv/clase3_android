@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">clase3</string>
+    <string name="btnRegistrarPersona">Registrar usuario</string>
+    <string name="tvNombrePersona">Nombre: </string>
+    <string name="tvCorreoPersona">Correo: </string>
+    <string name="tvEdadPersona">Edad: </string>
+    <string name="tvEsCasado">Es casado\/a?</string>
+    <string name="rSiEsCasado">Si</string>
+    <string name="rNoEsCasado">No</string>
+    <string name="tvHorasMaximas">Horas de trabajo</string>
+    <string name="btnGuardarFormulario">Guardar formulario</string>
+</resources>

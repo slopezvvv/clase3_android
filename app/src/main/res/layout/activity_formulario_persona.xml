@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp"
+    android:orientation="vertical"
+    tools:context="cl.tuserver.clase3.FormularioPersona">
+
+    <LinearLayout
+        android:id="@+id/informacionPersonal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvNombrePersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvNombrePersona" />
+
+        <EditText
+            android:id="@+id/txtNombrePersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName" />
+
+        <TextView
+            android:id="@+id/tvEdadPersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvEdadPersona" />
+
+        <EditText
+            android:id="@+id/txtEdadPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/tvCorreoPersona"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvCorreoPersona" />
+
+        <EditText
+            android:id="@+id/txtCorreoPersona"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textEmailAddress" />
+
+        <TextView
+            android:id="@+id/tvEsCasado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvEsCasado" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupEsCasado"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <RadioButton
+                android:id="@+id/rSiEsCasado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rSiEsCasado" />
+
+            <RadioButton
+                android:id="@+id/rNoEsCasado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/rNoEsCasado" />
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvHorasMaximas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tvHorasMaximas" />
+
+        <Spinner
+            android:id="@+id/spinnerHorasMaximas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGuardarFormulario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnGuardarFormulario" />
+
+</LinearLayout>
